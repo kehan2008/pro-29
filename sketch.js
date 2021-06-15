@@ -121,7 +121,7 @@ function mouseDragged(){
   Matter.Body.setPosition(this.polygon,{x:mouseX,y:mouseY});
 }
 
-function realeased(){
+function mouseRealeased(){
   slingshot.fly();
 }
 
